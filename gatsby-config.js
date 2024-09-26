@@ -12,7 +12,10 @@ module.exports = {
     excludeDatastoreFromEngineFunction: false,
     imageCDN: false,
   }),
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
 
 
